@@ -1,0 +1,89 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+textarea,
+input {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+select {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #aeaeae;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+p {
+  margin-bottom: 10px;
+}
+a {
+  color: #288f06;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #187900;
+  font-weight: bold;
+}
+
+.backButton{
+  text-decoration: none;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
