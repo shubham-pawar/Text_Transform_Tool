@@ -30,6 +30,9 @@ A simple PHP program that allows users to transform text through various operati
 - Text Transformation Tool Result Page
 <img width="434" alt="image" src="https://github.com/user-attachments/assets/da0292b0-eb94-480d-b2c1-f59fc22153f8">
 
+## 📄 License
+This project is licensed under the **Apache License 2.0**.  
+See the [LICENSE](https://github.com/shubham-pawar/Text_Transform_Tool/blob/main/LICENSE) file for details.
 
-
-
+## 👨‍💻 Author
+[Shubham Pawar](https://github.com/shubham-pawar)
